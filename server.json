@@ -1,0 +1,20 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.daedalus/mcp-zabbix",
+  "description": "MCP server for Zabbix API - exposes all Zabbix API functionality via MCP",
+  "repository": {
+    "url": "https://github.com/daedalus/mcp-zabbix",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "mcp-zabbix",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
